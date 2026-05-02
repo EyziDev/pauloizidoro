@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDI - Paulo Izidoro</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <div class="layout">
+    <aside class="sidebar">
+    <div class="sidebar-progress">
+        <div class="sidebar-progress-line">
+        <div class="sidebar-progress-fill" id="sidebarProgressFill"></div>
+        </div>
+
+        <nav class="sidebar-nav">
+        <a href="#inicio" class="sidebar-step active" data-target="inicio">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Início</span>
+        </a>
+
+        <a href="#momento-atual" class="sidebar-step" data-target="momento-atual">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Momento atual</span>
+        </a>
+
+        <a href="#proximo-passo" class="sidebar-step" data-target="proximo-passo">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Próximo passo</span>
+        </a>
+
+        <a href="#meta-atual" class="sidebar-step" data-target="meta-atual">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Meta atual</span>
+        </a>
+
+        <a href="#horizonte" class="sidebar-step" data-target="horizonte">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Evolução</span>
+        </a>
+
+        <a href="#skills-desenvolvimento" class="sidebar-step" data-target="skills-desenvolvimento">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Skills</span>
+        </a>
+
+        <a href="#meta-10-anos" class="sidebar-step" data-target="meta-10-anos">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Meta 10 anos</span>
+        </a>
+
+        <a href="#curriculo-card" class="sidebar-step" data-target="curriculo-card">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Currículo</span>
+        </a>
+
+        <a href="#jornada-profissional" class="sidebar-step" data-target="jornada-profissional">
+            <span class="sidebar-step-dot"></span>
+            <span class="sidebar-step-label">Minha jornada</span>
+        </a>
+        </nav>
+    </div>
+
+    <div class="sidebar-bottom">
+        <p class="email">pauloizidoro.profissao@gmail.com</p>
+        <div class="socials">
+        <a href="https://www.linkedin.com/in/paulo-izidoroo/" target="_blank"><span>in</span></a>
+        <a href="https://github.com/EyziDev" target="_blank"><span>gh</span></a>
+        </div>
+    </div>
+    </aside>
+
+    <main class="content">
+      <nav class="top-nav">
+        <a href="index.html" class="active">Sobre</a>
+        <a href="formacao.html">Formação</a>
+        <a href="placeholder.html">Roadmap</a>
+        <a href="placeholder.html">Skills</a>
+        <a href="placeholder.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <section class="hero reveal" id="inicio">
+        <div class="hero-left">
+          <h1>Paulo Izidoro</h1>
+          <h3>Estagiário em Dados na Vivo</h3>
+          <p>
+            Construindo minha evolução em dados, automação e tecnologia,
+            com foco em crescimento profissional de curto, médio e longo prazo.
+          </p>
+        </div>
+
+        <div class="roadmap-card" id="horizonte">
+            <div class="roadmap-track">
+                <button class="step current roadmap-btn active" data-phase="hoje" type="button">
+                <span class="bubble">Hoje</span>
+                <span class="year">2026</span>
+                </button>
+
+                <button class="step one roadmap-btn" data-phase="1ano" type="button">
+                <span class="bubble">1 ano</span>
+                <span class="year">2027</span>
+                </button>
+
+                <button class="step two roadmap-btn" data-phase="2anos" type="button">
+                <span class="bubble">2 anos</span>
+                <span class="year">2028</span>
+                </button>
+
+                <button class="step five roadmap-btn" data-phase="5anos" type="button">
+                <span class="bubble">5 anos</span>
+                <span class="year">2031</span>
+                </button>
+
+                <button class="step ten roadmap-btn" data-phase="10anos" type="button">
+                <span class="bubble">10 anos</span>
+                <span class="year">2036</span>
+                </button>
+            </div>
+        </div>
+      </section>
+
+      <section class="main-grid">
+        <article class="card reveal" id="momento-atual">
+          <h2>Momento Atual</h2>
+          <div class="brand">vivo</div>
+          <p class="role">
+            Estagiário em Inteligência de Dados B2B na Vivo, atuando com foco em
+            dados, automação e suporte à tomada de decisão.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">Automação</span>
+            <span class="tag">Análise de Dados</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="mini-icons">
+            <span>📊</span>
+            <span>⚙️</span>
+            <span>🗄️</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="small-text"><span class="strong">Contato:</span> pauloizidoro.profissao@gmail.com</p>
+        </article>
+
+        <article class="card reveal" id="proximo-passo">
+        <h2 id="nextStepTitle">Próximo Passo</h2>
+
+        <div class="list-line dynamic-line">
+            <span class="dynamic-icon" id="nextStepIcon">✓</span>
+            <p id="nextStepText">
+            Consolidar conhecimentos sólidos em análise de dados, BI e automação
+            para apoiar decisões estratégicas.
+            </p>
+        </div>
+
+        <p class="subdate" id="nextStepDate">2026</p>
+        </article>
+
+        <article class="card reveal" id="meta-atual">
+        <h2 id="goalTitle">Meta Atual</h2>
+
+        <div class="list-line dynamic-line">
+            <span class="dynamic-icon" id="goalIcon">✓</span>
+            <p id="goalText">
+            Tornar-me um profissional mais consistente em dados e BI, ampliando
+            minha capacidade analítica e técnica.
+            </p>
+        </div>
+        </article>
+
+        <article class="card reveal" id="skills-desenvolvimento">
+          <h2>Skills em Desenvolvimento</h2>
+
+          <div class="skill-row">
+            <div class="skill-label">📈 Power BI</div>
+            <div class="bar">
+              <div class="bar-fill"></div>
+            </div>
+            <div class="percent">60%</div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="meta-10-anos">
+          <h2>Meta de 10 Anos</h2>
+          <div class="list-line">
+            <span class="arrow">◼</span>
+            <p>Liderança em Produto & Tecnologia.</p>
+          </div>
+        </article>
+
+        <article class="card reveal" id="curriculo-card">
+            <h2>Baixe meu currículo</h2>
+
+            <p class="resume-text">
+                Veja minha trajetória, experiências e habilidades em um currículo atualizado.
+            </p>
+
+            <a class="resume-button" href="assets/Paulo_Izidoro_EstágioDados_CV.pdf" download target="_blank">
+                📄 Baixar currículo
+            </a>
+        </article>
+      </section>
+
+      <section class="timeline-section reveal" id="jornada-profissional">
+        <h2 class="timeline-title">Minha Jornada Profissional</h2>
+
+        <div class="timeline-progress-wrap">
+          <div class="timeline-progress-base"></div>
+          <div class="timeline-progress-fill" id="timelineProgress">
+            <div class="progress-glow"></div>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item current">
+              <div class="timeline-badge">Hoje</div>
+              <div class="timeline-year">2026</div>
+              <h4>Estágio na Vivo com foco em automação, Power BI e análise de dados.</h4>
+            </div>
+
+            <div class="timeline-item one" id="oneYearStep">
+              <div class="timeline-badge">1 ano</div>
+              <div class="timeline-year">2027</div>
+              <h4>Consolidar base forte em dados, BI e entendimento de negócio.</h4>
+            </div>
+
+            <div class="timeline-item two">
+              <div class="timeline-badge">2 anos</div>
+              <div class="timeline-year">2028</div>
+              <h4>Especializar-me como Analista de Dados com visão estratégica.</h4>
+            </div>
+
+            <div class="timeline-item five">
+              <div class="timeline-badge">5 anos</div>
+              <div class="timeline-year">2031</div>
+              <h4>Atuar como especialista ou engenheiro com maior profundidade técnica.</h4>
+            </div>
+
+            <div class="timeline-item ten">
+              <div class="timeline-badge">10 anos</div>
+              <div class="timeline-year">2036</div>
+              <h4>Assumir posição de liderança em tecnologia, dados ou produto.</h4>
+            </div>
+          </div>
+        </div>
+
+        <p class="timeline-status" id="timelineStatus">
+          Em progresso rumo à meta de 1 ano.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

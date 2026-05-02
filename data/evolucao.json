@@ -1,0 +1,57 @@
+{
+  "hoje": {
+    "nextTitle": "Próximo Passo",
+    "nextIcon": "✓",
+    "nextIconClass": "icon-success",
+    "nextText": "Fortalecer minha base em análise de dados, Power BI e automação, ganhando repertório técnico e visão de negócio dentro da Vivo.",
+    "nextDate": "2026",
+    "goalTitle": "Meta Atual",
+    "goalIcon": "✓",
+    "goalIconClass": "icon-success",
+    "goalText": "Tornar-me um profissional mais consistente em dados e BI, ampliando minha capacidade analítica e técnica."
+  },
+  "1ano": {
+    "nextTitle": "Próximo Passo",
+    "nextIcon": "◔",
+    "nextIconClass": "icon-clock",
+    "nextText": "Assumir atividades com mais autonomia, participar de análises mais estratégicas e me posicionar para a transição para uma vaga júnior.",
+    "nextDate": "2026 - 2027",
+    "goalTitle": "Meta de 1 Ano",
+    "goalIcon": "◔",
+    "goalIconClass": "icon-clock",
+    "goalText": "Virar Analista de Dados Júnior, tirar a certificação DP-900 e evoluir meu domínio em Power BI, SQL e automação."
+  },
+  "2anos": {
+    "nextTitle": "Próximo Passo",
+    "nextIcon": "◔",
+    "nextIconClass": "icon-clock",
+    "nextText": "Consolidar experiência prática em dados, criar dashboards com mais impacto no negócio e aumentar minha capacidade de traduzir dados em decisão.",
+    "nextDate": "2027 - 2028",
+    "goalTitle": "Meta de 2 Anos",
+    "goalIcon": "◔",
+    "goalIconClass": "icon-clock",
+    "goalText": "Estar atuando com mais segurança como Analista de Dados, com boa base em BI, SQL, modelagem e comunicação analítica."
+  },
+  "5anos": {
+    "nextTitle": "Próximo Passo",
+    "nextIcon": "◔",
+    "nextIconClass": "icon-clock",
+    "nextText": "Aprofundar meu lado técnico e estratégico, assumindo projetos mais complexos e ampliando meu impacto dentro da área de dados.",
+    "nextDate": "2028 - 2031",
+    "goalTitle": "Meta de 5 Anos",
+    "goalIcon": "◔",
+    "goalIconClass": "icon-clock",
+    "goalText": "Atuar como especialista em dados ou em uma posição mais madura, com forte domínio técnico e capacidade de gerar valor para o negócio."
+  },
+  "10anos": {
+    "nextTitle": "Próximo Passo",
+    "nextIcon": "◆",
+    "nextIconClass": "icon-future",
+    "nextText": "Evoluir para posições de maior liderança, influência e tomada de decisão, conectando tecnologia, dados e visão de produto.",
+    "nextDate": "2031 - 2036",
+    "goalTitle": "Meta de 10 Anos",
+    "goalIcon": "◆",
+    "goalIconClass": "icon-future",
+    "goalText": "Assumir uma posição de liderança em tecnologia, dados ou produto, com visão estratégica, capacidade de gestão e alto impacto."
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formação | Paulo Izidoro</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/formacao.css" />
+</head>
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+  <div class="layout">
+
+    <main class="content">
+      <nav class="top-nav">
+        <a href="index.html">Sobre</a>
+        <a href="formacao.html" class="active">Formação</a>
+        <a href="placeholder.html">Roadmap</a>
+        <a href="placeholder.html">Skills</a>
+        <a href="placeholder.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <section class="hero reveal">
+        <div class="hero-left">
+          <h1>Formação</h1>
+          <h3>Base acadêmica e próximos passos</h3>
+          <p>
+            Minha formação reúne a graduação que estou construindo agora e os caminhos
+            que pretendo seguir nos próximos anos, com foco em tecnologia, software e dados.
+          </p>
+        </div>
+
+        <div class="roadmap-card formacao-highlight-card">
+          <span class="highlight-badge">Atual</span>
+          <h2>Ciência da Computação</h2>
+          <p class="highlight-institution">Anhanguera Educacional</p>
+          <p class="highlight-period">2024 - 2027</p>
+          <p class="highlight-description">
+            Graduação em andamento com foco em backend com Java, lógica de programação,
+            POO e fundamentos de dados.
+          </p>
+          <span class="status-chip">Em andamento</span>
+        </div>
+      </section>
+
+      <div class="formacao-divider reveal">
+        <span>Planejamento</span>
+      </div>
+
+      <section class="formacao-grid-section reveal">
+        <article class="card formacao-card futuro">
+          <div class="card-icon">◔</div>
+          <h2>Engenharia de Software</h2>
+          <p class="card-subtitle">Pós-graduação planejada</p>
+          <p class="card-text">
+            Especialização voltada para arquitetura, qualidade, manutenção e evolução
+            de sistemas de software.
+          </p>
+          <span class="card-tag future">Planejado</span>
+        </article>
+
+        <article class="card formacao-card futuro">
+          <div class="card-icon">◔</div>
+          <h2>Engenharia de Dados</h2>
+          <p class="card-subtitle">Pós-graduação planejada</p>
+          <p class="card-text">
+            Formação futura com foco em pipelines, modelagem, processamento e tomada
+            de decisão orientada por dados.
+          </p>
+          <span class="card-tag future">Planejado</span>
+        </article>
+
+        <article class="card formacao-card futuro certificacoes-card">
+          <div class="card-icon">◔</div>
+          <h2>Certificações planejadas</h2>
+
+          <div class="cert-list">
+            <span class="cert-item">AZ-900</span>
+            <span class="cert-item">DP-900</span>
+            <span class="cert-item">AWS Cloud Practitioner</span>
+            <span class="cert-item">GH-900</span>
+          </div>
+
+          <span class="card-tag future">Em construção</span>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/formacao.js"></script>
+</body>
+</html>

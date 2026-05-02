@@ -1,0 +1,150 @@
+/* ===== LAYOUT DA PÁGINA ===== */
+.contato-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+/* ===== TEXTO ===== */
+.contato-text h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.contato-text h3 {
+  color: #6b6f85;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.contato-text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* EMAILS */
+.emails {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.emails a {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* BOTÃO */
+.linkedin-btn {
+  display: inline-block;
+  padding: 12px 18px;
+  background: var(--purple);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ===== PREVIEW ===== */
+.linkedin-preview {
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD */
+.profile-card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+
+  box-shadow:
+    0 0 0 1px rgba(108, 62, 255, 0.06),
+    0 10px 30px rgba(108, 62, 255, 0.08);
+
+  transition: 0.25s;
+}
+
+.profile-card:hover {
+  transform: translateY(-6px);
+}
+
+/* CAPA */
+.cover {
+  height: 120px;
+  background-image: url("../img/capa_linkedin_branca.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* CONTEÚDO */
+.profile-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* FOTO */
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -45px;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+/* TEXTOS */
+.profile-content h2 {
+  margin-top: 12px;
+}
+
+.role {
+  color: #555;
+  margin-top: 6px;
+}
+
+.location {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
+}
+
+/* BOTÕES */
+.actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.actions a {
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions a:first-child {
+  background: #0a66c2;
+  color: white;
+}
+
+.actions a:last-child {
+  border: 1px solid #0a66c2;
+  color: #0a66c2;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 900px) {
+  .contato-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
